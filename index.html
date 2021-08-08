@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <!-- main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Bondi - landing page</title>
+</head>
+<body>
+    <!-- Start scroll to top  && preloader -->
+    <button class="scrollbtn"><i class="fas fa-fighter-jet"></i></button>
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- ----------------- -->
+    
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a data-scroll="home" href="#home" class="active">Home</a></li>
+                    <li><a data-scroll="services" href="#services">Services</a></li>
+                    <li><a data-scroll="portfolio" href="#portfolio">Portfolio</a></li>
+                    <li><a data-scroll="about" href="#about">About</a></li>
+                    <li><a data-scroll="contact" href="#contact">Contact</a></li>
+                </ul>
+                <i class="i-search fas fa-search"></i>
+                <button type="button">Login</button>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <section id="home" class="home">
+        <div class="content">
+            <h1 class="animate__animated animate__backInDown">Taste the Creativity</h1>
+            <p class="animate__animated animate__bounceIn  animate__delay-1s">We make awesome graphic and web design</p>
+            <button class="animate__animated animate__backInUp  animate__delay-1s" type="button">Get Started</button>
+        </div>
+    </section>
+    <!-- End Home -->
+    <!-- Start Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="main-heading">
+                <div class="icon">
+                    <div class="center white"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <h1>We are Good at</h1>
+                <p>some of thease stuff under</p>
+            </div>
+            <div class="serv-box">
+                <div class="wow bounceInUp box">
+                    <h1>1</h1>
+                    <i class="fas fa-pencil-alt"></i>
+                    <h3>Graphic Design</h3>
+                    <p>
+                        Pellentesque in ipsum id orci porta dapibus. <br>
+                        Vivamus magna justo, lacinia eget consecte- <br>
+                        tur sed, convallis at tellus.
+                    </p>
+                </div>
+                <div class="wow bounceInUp box">
+                    <h1>2</h1>
+                    <i class="fas fa-desktop"></i>
+                    <h3>Web Design</h3>
+                    <p>
+                        Pellentesque in ipsum id orci porta dapibus. <br>
+                        Vivamus magna justo, lacinia eget consecte- <br>
+                        tur sed, convallis at tellus.
+                    </p>
+                </div>
+                <div class="wow bounceInUp box">
+                    <h1>3</h1>
+                    <i class="fas fa-plug"></i>
+                    <h3>App Design</h3>
+                    <p>
+                        Pellentesque in ipsum id orci porta dapibus. <br>
+                        Vivamus magna justo, lacinia eget consecte- <br>
+                        tur sed, convallis at tellus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="main-heading">
+                <div class="icon">
+                    <div class="center sky"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <h1>We Make This</h1>
+                <p>prepare to be amazed</p>
+            </div>
+            <ul>
+                <li data-filter="all" class="active">All</li>
+                <li data-filter=".design">Design</li>
+                <li data-filter=".code">Code</li>
+                <li data-filter=".photography">Photography</li>
+                <li data-filter=".app">Apps</li>
+            </ul>
+            <div class="shuffle" id="shuffle">
+                <div class="box mix design" data-order="1">
+                    <img src="images/suffle-1.jpg">
+                    <div class="place">
+                        <div class="text">
+                            <h3>Awesome Work</h3>
+                            <p>/Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box mix code" data-order="2">
+                    <img src="images/suffle-3.jpg">
+                    <div class="place">
+                        <div class="text">
+                            <h3>Awesome Work</h3>
+                            <p>/Code</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box mix app"  data-order="3">
+                    <img src="images/suffle-7.png">
+                    <div class="place">
+                        <div class="text">
+                            <h3>Awesome Work</h3>
+                            <p>/App</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box mix photography"  data-order="4">
+                    <img src="images/suffle-5.jpg">
+                    <div class="place">
+                        <div class="text">
+                            <h3>Awesome Work</h3>
+                            <p>/Photography</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box mix photography"  data-order="5">
+                    <img src="images/suffle-6.jpg">
+                    <div class="place">
+                        <div class="text">
+                            <h3>Awesome Work</h3>
+                            <p>/Photography</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box mix app"  data-order="6">
+                    <img src="images/suffle-8.png">
+                    <div class="place">
+                        <div class="text">
+                            <h3>Awesome Work</h3>
+                            <p>/App</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box mix design"  data-order="7">
+                    <img src="images/suffle-2.jpg">
+                    <div class="place">
+                        <div class="text">
+                            <h3>Awesome Work</h3>
+                            <p>/Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box mix code"  data-order="8">
+                    <img src="images/suffle-4.jpg">
+                    <div class="place">
+                        <div class="text">
+                            <h3>Awesome Work</h3>
+                            <p>/Code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>I want more...</button>
+        </div>
+    </section>
+    <!-- End Portfolio -->
+    <!-- Start About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="main-heading">
+                <div class="icon">
+                    <div class="center white"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <h1>Some stuff About Us</h1>
+                <p>the great team</p>
+            </div>
+            <p>
+                Donec rutrum congue leo eget malesuada. Mauris blandit
+                aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in
+                ipsum id orci porta dapibus. Proin eget tortor risus. Donec
+                sollicitudin molestie malesuade
+            </p>
+            <div class="content">
+                <div class="text">
+                    <h2>Retina Design</h2>
+                    <p>
+                        vestibulum as diam sit amet quam vehicula elementum
+                        sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt
+                        nibh pulvinar a.
+                    </p>
+                    <br>
+                    <p>
+                        Donec rutrum congue leo eget malesuada. Mauris blandit
+                        aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in
+                        ipsum id orci porta dapibus. Proin eget tortor risus. Donec
+                        sollicitudin molestie malesuade
+                    </p>
+                    <button>ordered me one</button>
+                </div>
+                <div class="image">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+    <!-- Start Team -->
+    <div class="team">
+        <div class="container">
+            <h1>Meet the Team</h1>
+            <p>
+                Donec rutrum congue leo eget malesuada. Mauris blandit
+                aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in
+                ipsum id orci porta dapibus. Proin eget tortor risus. Donec
+                sollicitudin molestie malesuade
+            </p>
+            <div class="team-members">
+                <div class="member">
+                    <img src="images/team-1.jpg" alt="team-1">
+                    <h3>Luke Skywalker</h3>
+                    <q>
+                        I don't understand how we got by those troops. I thought we were dead.
+                    </q>
+                </div>
+                <div class="member">
+                    <img src="images/team-2.jpg" alt="team-2">
+                    <h3>Obi-Wan Kenob</h3>
+                    <q>
+                        Tour clones are very impressive. You must be very proud
+                    </q>
+                </div>
+                <div class="member">
+                    <img src="images/team-3.jpg" alt="team-3">
+                    <h3>Princess Leia</h3>
+                    <q>
+                        I don't know who you are or where you came from, but from now on you 'll do as I tell you, okay?
+                    </q>
+                </div>
+                <div class="member">
+                    <img src="images/team-4.jpg" alt="team-4">
+                    <h3>Yoda</h3>
+                    <q>
+                        Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.
+                    </q>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Team -->
+    <!-- Start Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="client">
+                <div class="object">
+                    <img src="images/company-1.png" alt="clients">
+                </div>
+                <div class="object">
+                    <img src="images/company-2.png" alt="clients">
+                </div>
+                <div class="object">
+                    <img src="images/company-3.png" alt="clients">
+                </div>
+                <div class="object">
+                    <img src="images/company-4.png" alt="clients">
+                </div>
+                <div class="object">
+                    <img src="images/company-5.png" alt="clients">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Clients -->
+    <!-- Start Project -->
+    <div class="project">
+        <div class="text">
+            <h1>Start Your Project Now</h1>
+            <p>Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+            <button>start project</button>
+        </div>
+    </div>
+    <!-- End Project -->
+    <!-- Start Blog -->
+    <div class="blog" id="blog">
+        <div class="container">
+            <div class="main-heading">
+                <div class="icon">
+                    <div class="center white"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <h1>Read Our Blog</h1>
+                <p>new stories</p>
+            </div>
+            <div class="blogs">
+                <div class="articles">
+                    <img src="images/blog1.jpg" alt="blog">
+                    <div class="content">
+                        <p class="date">January 17,2017</p>
+                        <p class="title">Some Awesome Blog Title Here</p>
+                    </div>
+                </div>
+                <div class="articles">
+                    <img src="images/blog2.jpg" alt="blog">
+                    <div class="content">
+                        <p class="date">January 17,2017</p>
+                        <p class="title">Some Awesome Blog Title Here</p>
+                    </div>
+                </div>
+                <div class="articles">
+                    <img src="images/blog3.jpg" alt="blog">
+                    <div class="content">
+                        <p class="date">January 17,2017</p>
+                        <p class="title">Some Awesome Blog Title Here</p>
+                    </div>
+                </div>
+            </div>
+            <button>more stories</button>
+        </div>
+    </div>
+    <!-- End Blog -->
+    <!-- Start subscribtion -->
+    <section class="subscribtion">
+        <label for="email">Subscribe to our Newsletter:</label>
+        <input type="email" placeholder="Enter email Address">
+        <input type="submit" value="Subscribe">
+    </section>
+    <!-- End subscribtion -->
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="content1">
+                <div class="text">
+                    <a href="#home">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <p>
+                        Pellentesque in ipsum id orci porta dapibus.
+                        Vivamus magna justo, lacinia eget consecte-
+                        tur sed, convallis at tellus.
+                    </p>
+                </div>
+                <p>
+                    Created by <span>Graphberry</span>,Belgrade,Serbia<br>
+                    &copy; 2017 - <span>Bondi.inc</span>
+                </p>
+            </div>
+            <div class="content2">
+                <div class="text">
+                    <h2>Links</h2>
+                    <a href="#home">Home</a>
+                    <a href="#services">Our Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Support</a>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+                <div class="text">
+                    <h2>About Us</h2>
+                    <a href="#">Sign In</a>
+                    <a href="#">Register</a>
+                    <a href="#about">About Us</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
+            <div class="content3">
+                <h2>Contact Us</h2>
+                <p class="text">Get in touch with us via mail phone.We are waiting for your call or message</p>
+                <a href="mailto:graphberry@gmail.com?subject=Contact" class="link">graphberry@gmail.com</a>  
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g google"></i></a>
+                    <a href="#"><i class="fab fa-dribbble dribble"></i></a>
+                </div>      
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
